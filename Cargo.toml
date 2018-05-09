@@ -1,0 +1,15 @@
+[package]
+name = "siege-plugin-fps-camera"
+version = "0.1.0"
+authors = ["Mike Dilger <mike@optcomp.nz>"]
+description = "FPS Camera Plugin for the Siege Engine"
+repository = "https://github.com/SiegeEngine/siege-plugin-fps-camera"
+readme = "README.md"
+keywords = [ "siege", "camera", "fps" ]
+license = "MIT"
+
+[dependencies]
+dacite = { git = "https://gitlab.com/mikedilger/dacite.git" }
+siege-math = { git = "https://github.com/SiegeEngine/siege-math.git" }
+siege-plugin-avatar-simple = { git = "https://github.com/SiegeEngine/siege-plugin-avatar-simple.git" }
+siege-render = { git = "https://github.com/SiegeEngine/siege-render.git" }
